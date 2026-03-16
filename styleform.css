@@ -1,0 +1,99 @@
+body{
+    background-image: url(frieren-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.general-window{
+    display: flex;
+}
+
+/* Middle window*/
+.main-window{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.top-bar{
+    width: clamp(400px, 600px, 500px);
+    height: clamp(30px, 40px, 35px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 20px 0px 20px;
+    
+    border-style: solid;
+    border-width: 2px;
+    font-family: Arial;
+    background-color: rgb(224, 243, 255);
+}
+
+.content{
+    font-family: sans-serif;
+    background-color: lightskyblue;
+    height: auto;
+    border-style: solid;
+    border-top: none;
+    border-width: 2px;
+    padding: 30px 30px 0px 30px;
+    width: 480px;
+}
+
+
+.buttons button{
+    background: none;
+}
+
+
+.left-window{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.top-left-bar{
+    width: clamp(100px, 150px, 120px);
+    height: clamp(30px, 40px, 35px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+    
+    border-style: solid;
+    border-width: 2px;
+    font-family: Arial;
+    background-color: rgb(224, 243, 255);
+}
+.left-menu{
+    margin: 0px;
+    background-color: lightskyblue;
+    height: 400px;
+    border-style: solid;
+    border-top: none;
+    border-width: 2px;
+
+}
+.form{
+    margin-bottom: 30px;
+}
+
+.form button{
+    background: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.information{
+    word-wrap: break-word;
+}
+.form form > *{
+    margin-bottom: 20px;
+}
+.left-menu li{
+    margin: 0px 0px 20px 0px;
+    list-style: none;
+    font-family: sans-serif;
+    color: black;
+}

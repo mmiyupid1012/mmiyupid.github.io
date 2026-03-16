@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of mmiyupid</title>
+    <link href="/styleform.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class = "general-window">
+        <div class="left-window">
+            <div class="top-left-bar">
+                <p>Menu.exe </p>
+            </div>
+            <div class = "left-menu">
+                <ul>
+                    <li><a href="neocity.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="confessions.html">Confessions</a></li>
+                    <li><a href="socials.html">My socials</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-window">
+            <div class="top-bar">
+                <div class="text">
+                    <p>Miyuki.exe</p>
+                </div>
+                <div class="buttons">
+                    <button style="background-color: rgb(6, 255, 6); color: white;"><b>-</b></button>
+                    <button style="background-color: rgb(233, 249, 17); color: white;"><b>O</b></button>
+                    <button style="background-color: rgb(255, 19, 6); color: white;"><b>X</b></button>
+                </div>
+                
+            </div>
+            <div class="content">
+                <div class="information">
+                    <p>Beware, the confession will be <b>READ and uploaded to my blog</b>! Therefore, you should use your words wisely. Note that you can confess whatever you like. <em>For example: I love you Phillip!, I love you (person completely unrelated to me).</em></p>
+                </div>
+                <div class="form">
+                <form action="/submit" method="POST">
+                    
+                    <label>Type in your confession!!</label><br><br>
+                    <textarea rows="4" cols="50" name="message" maxlength="500" required></textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
