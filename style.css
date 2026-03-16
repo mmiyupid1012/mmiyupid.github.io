@@ -13,6 +13,7 @@ body{
 .main-window{
     display: flex;
     flex-direction: column;
+    margin: 0px 15px 0px 15px;
 }
 .top-bar{
     width: clamp(400px, 600px, 500px);
